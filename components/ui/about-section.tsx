@@ -22,41 +22,25 @@ export function AboutSection({
           {/* Content Side */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-neutral-900 to-neutral-600 dark:from-neutral-100 dark:to-neutral-400 bg-clip-text text-transparent">
+              <h2 className="text-5xl md:text-6xl font-bold" style={{color: '#B5386F'}}>
                 {title}
               </h2>
-              <h3 className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-400 font-medium font-inter">
+              <h3 className="text-xl md:text-2xl font-medium font-inter" style={{color: '#B5386F'}}>
                 {subtitle}
               </h3>
             </div>
             
-            <p className="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed font-inter">
+            <p className="text-lg leading-relaxed font-inter" style={{color: '#B5386F'}}>
               {description}
             </p>
-            
-            <div className="space-y-4">
-              <h4 className="text-lg font-semibold font-inter text-neutral-900 dark:text-neutral-100">
-                Signature Touch
-              </h4>
-              <ul className="space-y-3">
-                {features.map((feature, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-gradient-to-r from-neutral-900 to-neutral-600 dark:from-neutral-100 dark:to-neutral-400 rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-neutral-700 dark:text-neutral-300 font-inter">
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
           
           {/* Visual Side */}
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img
-                src="https://media.discordapp.net/attachments/1387043965714300974/1389930744071196723/Screenshot_2025-07-02_at_18.28.27.png?ex=68666961&is=686517e1&hm=997208553e5e4c7d30fb140cbdae9ff12260c87aa39c66f332f4ddcde7242b37&=&format=webp&quality=lossless&width=1184&height=1492"
-                alt="ONAWHIM product showcase"
+                src="/logo.png"
+                alt="ONAWHIM logo"
                 className="w-full h-full object-cover aspect-square"
               />
               

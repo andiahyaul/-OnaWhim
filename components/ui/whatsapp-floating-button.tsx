@@ -6,7 +6,7 @@ interface WhatsAppFloatingButtonProps {
 }
 
 export function WhatsAppFloatingButton({
-  phoneNumber = "+6281236250632", // Replace with actual WhatsApp number
+  phoneNumber = "+62XXXXXXXXXX", // Replace with actual WhatsApp number
   message = "Hi! I'm interested in your products from Onawhim catalog."
 }: WhatsAppFloatingButtonProps) {
   const [isHovered, setIsHovered] = useState(false);

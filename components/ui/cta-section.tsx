@@ -16,11 +16,11 @@ export function CTASection({
   return (
     <section className="w-full py-16 px-4">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-neutral-100 to-neutral-200 dark:from-neutral-900 dark:to-neutral-800 rounded-3xl p-12 shadow-xl">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-neutral-900 to-neutral-600 dark:from-neutral-100 dark:to-neutral-400 bg-clip-text text-transparent">
+        <div className="rounded-3xl p-12 shadow-xl" style={{backgroundColor: '#e8b4d1'}}>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             {title}
           </h2>
-          <p className="text-lg font-inter md:text-xl text-neutral-700 dark:text-neutral-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg font-inter md:text-xl mb-8 max-w-2xl mx-auto text-white">
             {description}
           </p>
           <Button

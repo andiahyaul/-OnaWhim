@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OnaWhim - Fashion Accessories E-Catalog
+
+A modern, responsive e-catalog website for OnaWhim, showcasing a curated collection of fashion accessories that blend thoughtful design with spontaneous creativity.
+
+## About OnaWhim
+
+OnaWhim represents the perfect fusion of thoughtful design and spontaneous creativity. Our carefully curated collection of accessories embodies the spirit of living in the moment while maintaining an eye for timeless elegance.
+
+### Brand Values
+- **Quality Craftsmanship**: Attention to detail in every piece
+- **Creative Inspiration**: Designs that inspire confidence and creativity
+- **Sustainable Practices**: Ethical sourcing and responsible production
+
+### The Story Behind the Craft
+
+Every piece is more than just an accessory—it's a narrative woven with care, tradition, and creativity. Inspired by cultural motifs and handmade using time-honored techniques, each item tells a unique story while maintaining our signature aesthetic of modern elegance.
+
+## Features
+
+- **Interactive Product Showcase**: Tilted card animations with hover effects
+- **Product Modal System**: Detailed product views with navigation
+- **Instagram Integration**: Live Instagram feed display
+- **Responsive Design**: Optimized for all devices
+- **Dark/Light Mode**: Automatic theme switching based on user preference
+- **WhatsApp Integration**: Direct customer communication
+- **Modern UI/UX**: Smooth animations and transitions
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS with CSS variables for theming
+- **UI Components**: shadcn/ui component system (New York style)
+- **TypeScript**: Full TypeScript support
+- **Fonts**: Geist Sans and Geist Mono font families
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/andiahyaul/-OnaWhim.git
+cd -OnaWhim
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server on http://localhost:3000
+- `npm run build` - Build production application
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint for code quality checks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/                    # Next.js App Router pages and layouts
+│   ├── globals.css        # Global styles with CSS custom properties
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx           # Homepage component
+├── components/            # Reusable React components
+│   └── ui/               # UI components (shadcn/ui)
+├── lib/                  # Utility functions and shared logic
+│   └── utils.ts          # Contains cn() utility for conditional class merging
+├── public/               # Static assets
+└── components.json       # shadcn/ui configuration
+```
 
-## Deploy on Vercel
+## Collections
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website features four main collections:
+- **Collection #1**: Curated accessories with modern elegance
+- **Collection #2**: Style and spontaneity blend
+- **Collection #3**: Cultural motifs with contemporary design
+- **Collection #4**: Handcrafted pieces with traditional techniques
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Social Media
+
+Follow OnaWhim on Instagram: [@onawhim._](https://www.instagram.com/onawhim._/)
+
+## Contact
+
+For inquiries and orders, use the integrated WhatsApp button on the website for direct communication.
+
+## Contributing
+
+This is a private brand website. For any technical issues or suggestions, please contact the development team.
+
+## License
+
+© 2024 OnaWhim. All rights reserved.
