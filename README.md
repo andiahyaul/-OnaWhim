@@ -23,7 +23,7 @@ Every piece is more than just an accessory—it's a narrative woven with care, t
 - **Responsive Design**: Optimized for all devices
 - **Dark/Light Mode**: Automatic theme switching based on user preference
 - **WhatsApp Integration**: Direct customer communication
-- **Modern UI/UX**: Smooth animations and transitions
+
 
 ## Tech Stack
 
@@ -97,10 +97,6 @@ Follow OnaWhim on Instagram: [@onawhim._](https://www.instagram.com/onawhim._/)
 ## Contact
 
 For inquiries and orders, use the integrated WhatsApp button on the website for direct communication.
-
-## Contributing
-
-This is a private brand website. For any technical issues or suggestions, please contact the development team.
 
 ## License
 
